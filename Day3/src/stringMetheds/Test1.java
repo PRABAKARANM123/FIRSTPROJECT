@@ -1,0 +1,20 @@
+package stringMetheds;
+
+public class Test1 {
+	public static void main(String[]args)
+	{
+		String name1="Raja";
+		String name2="Raman";
+		/*String result=name1.concat(name2);
+		String result1=result.toUpperCase();
+		int result2=result1.length();
+		System.out.println(result1);
+		System.out.println(result2);*/
+		System.out.println(name1.concat(name2)+"  "+name2.length()+"  "+name1.toUpperCase());
+		System.out.println(name1.concat(" THE GREAT"));
+		
+		
+				
+	}
+
+}

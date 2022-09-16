@@ -1,0 +1,12 @@
+package stringMetheds;
+
+public class Test2 {
+	public static void main(String[]args)
+	{
+		String name="Turkey";
+		char letter=name.charAt(5);
+		System.out.println(letter);
+		
+	}
+
+}

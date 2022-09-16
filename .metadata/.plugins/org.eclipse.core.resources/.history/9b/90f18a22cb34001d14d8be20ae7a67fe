@@ -1,0 +1,9 @@
+package functions;
+
+public class UsePrimeNumber {
+	public static void main(String[] args) {
+	PrimeNumber num = new PrimeNumber();
+	num.findPrimeNumber(7);
+
+}
+}

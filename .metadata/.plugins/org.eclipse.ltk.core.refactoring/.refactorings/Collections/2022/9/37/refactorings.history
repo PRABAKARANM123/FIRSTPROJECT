@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;handling.CheckMainException&apos; to &apos;CheckMailException&apos;&#x0D;&#x0A;- Original project: &apos;Collections&apos;&#x0D;&#x0A;- Original element: &apos;handling.CheckMainException&apos;&#x0D;&#x0A;- Renamed element: &apos;handling.CheckMailException&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CheckMainException&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;handling{CheckMainException.java[CheckMainException" matchStrategy="1" name="CheckMailException" qualified="false" references="true" similarDeclarations="false" stamp="1662530157110" textual="false" version="1.0"/>
+</session>

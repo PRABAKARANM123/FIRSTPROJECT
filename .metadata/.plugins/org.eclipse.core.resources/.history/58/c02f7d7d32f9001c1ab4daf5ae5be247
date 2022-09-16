@@ -1,0 +1,14 @@
+package stringMetheds;
+
+public class ToSeperate {
+	public static void main(String[]args)
+	{
+		String word="Apple,Orange,PineApple";
+		String[]words=word.split(",");
+		System.out.println(0);
+		
+		
+		
+	}
+
+}

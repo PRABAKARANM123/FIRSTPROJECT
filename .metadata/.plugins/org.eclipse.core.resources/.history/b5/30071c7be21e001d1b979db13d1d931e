@@ -1,0 +1,11 @@
+package encapsulationRivice;
+
+public class Marker {
+	private String color;
+	private int price;
+	private boolean isRefillable;
+	
+	
+	public tring 
+
+}

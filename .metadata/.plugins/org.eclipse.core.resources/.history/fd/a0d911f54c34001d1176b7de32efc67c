@@ -1,0 +1,18 @@
+package string;
+
+public class StringDemo2 {
+	public static void main(String[] args) {
+		StringDemo2 sd = new StringDemo2();
+		String[] names = {"naresh", "raju", "muthu"};
+		sd.joinWords(names);
+	}
+	private void joinWords(String[] names) {
+		StringBuffer sb = new StringBuffer("Prabu");
+		sb.insert(4,'h');
+		System.out.println(sb);
+		sb.replace(0,3,"MSP");
+		System.out.println("After Repacing   "+sb);
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package encapsulationRivice;
+
+public class Marker {
+	private String color;
+	private int price;
+	private boolean isRefillable;
+	
+	
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getColor() {
+		return color;
+	}
+
+
+
+}

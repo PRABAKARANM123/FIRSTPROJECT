@@ -1,0 +1,16 @@
+package stringMetheds;
+
+public class ToGetCharector {
+	public static void main(String[]args)
+	{
+		String name="PRABAKARAN";
+		char letter=name.charAt(8);
+		System.out.println(letter);
+		
+	
+	
+	
+		
+	}
+
+}

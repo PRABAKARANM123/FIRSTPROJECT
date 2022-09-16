@@ -1,0 +1,11 @@
+package stringMetheds;
+
+public class GetWords {
+	public static void main(String[]args)
+	{
+		String name="ELECTRONICS AND COMMUNICATION";
+		String answer=name.substring(15);
+		System.out.println(answer);
+	}
+
+}

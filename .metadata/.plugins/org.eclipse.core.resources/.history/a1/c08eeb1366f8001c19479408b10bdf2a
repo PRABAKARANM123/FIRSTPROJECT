@@ -1,0 +1,20 @@
+package Object;
+
+public class Usebike {
+	public static void main(String[]args)
+	{
+		Bike B=new Bike();
+		B.brand="Hero";
+		B.price=80000;
+		B.colour="Red";
+		B.discountAmount=3000;
+		boolean isTubeLess=true;
+		B.netPrice=(B.price-B.discountAmount);
+		System.out.println(B.brand);
+		System.out.println(B.netPrice);
+		
+		
+		
+	}
+
+}

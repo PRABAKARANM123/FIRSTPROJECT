@@ -1,0 +1,17 @@
+package stringMetheds;
+
+public class ToJoinWords {
+	public static void main(String[]args)
+	{
+		String name="ONE  ";
+		String result=name.concat("SOFT");
+		System.out.println(result);
+		
+		/*String name1="ONE ";
+		String name2="  SOFT";
+		String resut=name1.concat(name2);
+		System.out.println(result);*/
+				
+	}
+
+}

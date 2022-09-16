@@ -1,0 +1,18 @@
+package practiceQuestions;
+
+public class UseFridge {
+	public static void main(String[] args) {
+		String[] f = args[0].split(",");
+		Fridge fridge = new Fridge();
+		fridge.brand = f[0].toUpperCase();
+		fridge.color = f[1].toUpperCase()	;
+		fridge.price = Integer.parseInt(f[2]);
+		fridge.isWarranty = Boolean.parseBoolean(f[3]);
+		char b = fridge.brand.charAt(0);
+		char c = fridge.brand.charAt(fridge.brand.length()-1);
+		//System.out.println("Brand = "+fridge.brand+", Color = "+fridge.color+", "+fridge.price+", Warranty = "+fridge.isWarranty+" "+fridge.brand.charAt(0)+"  "+fridge.color.charAt(fridge.color.length()-1));
+		//System.out.println("Brand = "+fridge.brand+", Color = "+fridge.color+", Price = "+fridge.price+", Warranty = "+fridge.isWarranty+", Firat letter of brand= "+fridge.brand.charAt(0)+", Last letter of the color = "+fridge.color.charAt(fridge.color.length()-1));
+		System.out.println("Brand = "+fridge.brand+", color = "+fridge.color+", Price = "+fridge.price+", Warranty = "+fridge.isWarranty+", First letter of the brand = "+b+", Last letter of the color = "+c);
+	}
+
+}

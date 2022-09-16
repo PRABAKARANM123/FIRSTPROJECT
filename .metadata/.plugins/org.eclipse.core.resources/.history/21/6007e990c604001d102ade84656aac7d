@@ -1,0 +1,28 @@
+package for2and3;
+
+public class UseSaree {
+	public static void main(String[] args) {
+		Saree saree1 = new Saree();
+		saree1.material = "Sik";
+		saree1.colour = "Red";
+		saree1.price = 20000;
+		saree1.discountAmount = 300;
+		
+		Saree saree2 = new Saree();
+		saree2.material = "Cotton";
+		saree2.colour = "Green";
+		saree2.price = 5000;
+		saree2.discountAmount = 200;
+		
+		Saree[] sarees = new Saree[2];
+		sarees[0] = saree1;
+		sarees[1] = saree2;
+		for(Saree s :sarees) {
+			System.out.println(s.material+" : "+(s.price-3s.discountAmount));
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package stringMetheds;
+
+public class CheckEquals {
+	public static void main(String[]args)
+	{
+		String name="oNESOFT";
+		boolean result=name.equals("ONESOFT");
+		System.out.println(result);
+	 
+	}
+
+}

@@ -1,0 +1,23 @@
+package Object;
+
+public class UseAc {
+	public static void main(String[]args)
+	{
+		Ac a=new Ac();
+		a.brand="STAR";
+		a.colour="white";
+		a.price=35000;
+		a.taxAmount=5;
+		a.taxPercent=5/35000*100;
+		a.netAmount=a.price+a.taxAmount;
+		System.out.println(a.brand);
+		System.out.println(a.netAmount);
+		
+		
+		
+		
+		
+		
+	}
+
+}

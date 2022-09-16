@@ -1,0 +1,20 @@
+package test;
+
+import encapsulationRivice.Battery;
+
+public class Car {
+	private String brand;
+	private int price;
+	private  Engine engine;
+	
+	public Car(String brand, int price, Engine egine) {
+		this.brand = brand;
+		this.price = price;
+		this.engine = engine;
+	}
+	
+	public String toString() {
+		return brand+" "+price+" "+engine;
+	}
+
+}

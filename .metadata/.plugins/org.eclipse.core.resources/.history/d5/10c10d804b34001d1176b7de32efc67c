@@ -1,0 +1,10 @@
+package string;
+
+public class StringDemo2 {
+	public static void main(String[] args) {
+		StringDemo1 sd = new StringDemo1();
+		String[] names = {"naresh", "raju", "muthu"};
+		sd.joinWords(names);
+	}
+
+}

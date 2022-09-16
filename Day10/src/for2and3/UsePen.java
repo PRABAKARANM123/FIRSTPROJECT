@@ -1,0 +1,45 @@
+package for2and3;
+
+public class UsePen {
+	public static void main(String[] args) {
+		Pen pen1 = new Pen();
+		pen1.brand = "HERO";
+		pen1.price = 60;
+		pen1.colour = "Blue";
+		pen1.isRefillable = true;
+		
+		Pen pen2 = new Pen();
+		pen2.brand = "NATRAJ";
+		pen2.price = 40;
+		pen2.colour = "Red";
+		pen2.isRefillable = true;
+		
+		Pen pen3 = new Pen();
+		pen3.brand = "PARKER";
+		pen3.price = 100;
+		pen3.colour = "Green";
+		pen3.isRefillable = false;
+		
+		Pen pen4 = new Pen();
+		pen4.brand = "CAMEL";
+		pen4.price = 80;
+		pen4.colour = "Orange";
+		pen4.isRefillable = true;
+		
+		Pen[] pens = new Pen[4];
+		pens[0] = pen1;
+		pens[1]= pen2;
+		pens[2] = pen3;
+		pens[3] = pen4;
+		
+		for(Pen v :pens) {  // <-- Enchance methedf
+			System.out.println(v.brand+" : "+v.price);
+			
+			
+		}
+		
+		
+		
+	}
+
+}

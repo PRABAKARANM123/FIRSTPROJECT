@@ -1,0 +1,17 @@
+package test;
+
+public class Test3 {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		int c = add(a,b);
+		System.out.println(add());
+	}
+	
+	public int add() {   //return without parameter
+		int num1 = 15;
+		int num2 = 20;
+		return num1+num2;
+	}
+
+}
